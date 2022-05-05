@@ -3,4 +3,14 @@
     <string name="heart">lovejob.json</string>
     <string name="hello">hello.json</string>
     <string name="login">login.json</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slogan">Un empleo al instante</string>
+    <string name="siguiente">siguiente</string>
+    <string name="comienza">Comienza a descubrir las ofertas de empleo que están cerca de ti</string>
+    <string name="reg">Registro Exitoso</string>
+    <string name="finalizar">Finalizar selección</string>
+    <string name="elige">Elige una opcion para comenzar</string>
+    <string name="iniciar">Iniciar sesión</string>
+    <string name="crear">Crear cuenta</string>
 </resources>

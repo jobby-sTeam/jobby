@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jobby">
         <activity
-            android:name=".Crearcuenta"
+            android:name=".screens.registro.Crearcuenta"
             android:exported="false" />
         <activity
             android:name=".Login"

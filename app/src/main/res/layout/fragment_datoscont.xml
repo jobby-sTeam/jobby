@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".screens.registro.Datoscont">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="30dp"
+            android:text="Datos de contacto"
+            android:textAlignment="center"
+            android:textColor="@color/dark"
+            android:textSize="30sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnSiguiente_3"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="508dp"
+            android:backgroundTint="@color/naranja"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/siguiente"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            app:cornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

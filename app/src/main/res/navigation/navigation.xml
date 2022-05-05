@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/splash">
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.example.jobby.Splash"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splash_to_bienvenida"
+            app:destination="@id/bienvenida" />
+    </fragment>
+    <fragment
+        android:id="@+id/bienvenida"
+        android:name="com.example.jobby.Bienvenida"
+        android:label="fragment_bienvenida"
+        tools:layout="@layout/fragment_bienvenida" >
+        <action
+            android:id="@+id/action_bienvenida_to_login2"
+            app:destination="@id/login2" />
+        <action
+            android:id="@+id/action_bienvenida_to_crearcuenta"
+            app:destination="@id/crearcuenta" />
+    </fragment>
+    <fragment
+        android:id="@+id/login2"
+        android:name="com.example.jobby.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login2_to_listatrabajos"
+            app:destination="@id/listatrabajos" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearcuenta"
+        android:name="com.example.jobby.screens.registro.Crearcuenta"
+        android:label="fragment_crearcuenta"
+        tools:layout="@layout/fragment_crearcuenta" >
+        <action
+            android:id="@+id/action_crearcuenta_to_experiencialab"
+            app:destination="@id/experiencialab" />
+        <action
+            android:id="@+id/action_crearcuenta_to_cuentaemp"
+            app:destination="@id/cuentaemp" />
+    </fragment>
+    <fragment
+        android:id="@+id/experiencialab"
+        android:name="com.example.jobby.screens.registro.Experiencialab"
+        android:label="fragment_experiencialab"
+        tools:layout="@layout/fragment_experiencialab" >
+        <action
+            android:id="@+id/action_experiencialab_to_datoscont"
+            app:destination="@id/datoscont" />
+    </fragment>
+    <fragment
+        android:id="@+id/cuentaemp"
+        android:name="com.example.jobby.screens.registro.Cuentaemp"
+        android:label="fragment_cuentaemp"
+        tools:layout="@layout/fragment_cuentaemp" >
+        <action
+            android:id="@+id/action_cuentaemp_to_datoscont"
+            app:destination="@id/datoscont" />
+    </fragment>
+    <fragment
+        android:id="@+id/datoscont"
+        android:name="com.example.jobby.screens.registro.Datoscont"
+        android:label="fragment_datoscont"
+        tools:layout="@layout/fragment_datoscont" >
+        <action
+            android:id="@+id/action_datoscont_to_regexitoso"
+            app:destination="@id/regexitoso" />
+    </fragment>
+    <fragment
+        android:id="@+id/regexitoso"
+        android:name="com.example.jobby.screens.registro.Regexitoso"
+        android:label="fragment_regexitoso"
+        tools:layout="@layout/fragment_regexitoso" >
+        <action
+            android:id="@+id/action_regexitoso_to_interes"
+            app:destination="@id/interes" />
+    </fragment>
+    <fragment
+        android:id="@+id/interes"
+        android:name="com.example.jobby.screens.interes.Interes"
+        android:label="fragment_interes"
+        tools:layout="@layout/fragment_interes" >
+        <action
+            android:id="@+id/action_interes_to_listatrabajos"
+            app:destination="@id/listatrabajos" />
+    </fragment>
+    <fragment
+        android:id="@+id/listatrabajos"
+        android:name="com.example.jobby.screens.interes.Listatrabajos"
+        android:label="fragment_listatrabajos"
+        tools:layout="@layout/fragment_listatrabajos" />
+</navigation>

@@ -8,7 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <!--CUSTOM COLORS-->
-    <color name="orange">#FFAD2B</color>
+    <color name="naranja">#FFAD2B</color>
     <color name="aqua">#0FC7A5</color>
-
+    <color name="gris900"></color>
+    <color name="dark">#B3333F50</color>
+    <color name="dark_1">#A6A6A6</color>
+    <color name="dark_2">#9F9F9F</color>
 </resources>
